@@ -4,14 +4,22 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-slate-100">
       <div className="grid md:grid-cols-2 pt-8 px-4">
-        <div className="p-4">
-          <h3>something</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            repellendus quos adipisci saepe praesentium soluta corrupti
-            similique vitae ullam illo?
+        <div className="p-4 flex flex-col justify-center">
+          <h3 className="text-4xl font-mono font-bold text-cyan-800">
+            Get Along With
+          </h3>
+          <h3 className="text-3xl font-mono font-bold text-purple-500 my-3">
+            Your Best Laptop
+          </h3>
+          <p className="text-gray-700 mb-4">
+            A laptop person like you have to explore this product. This time it
+            comes with new and powerful features as you want.
           </p>
-          <button>Live Demo</button>
+          <div>
+            <button className="my-4 text-xl px-3 py-2  rounded font-bold bg-purple-400 text-white hover:bg-purple-900">
+              Live Demo
+            </button>
+          </div>
         </div>
         <div>
           <img
@@ -19,6 +27,7 @@ const Home = () => {
               "https://img.freepik.com/free-psd/mockup-gaming-laptop-with-rgb-led-keyboard-glow_74058-461.jpg?size=626&ext=jpg&ga=GA1.1.1395737918.1641046705"
             }
             alt=""
+            className="p-8 rounded"
           ></img>
         </div>
       </div>
