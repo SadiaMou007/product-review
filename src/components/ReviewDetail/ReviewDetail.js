@@ -1,5 +1,6 @@
 import React from "react";
 import "./ReviewDetails.css";
+
 const ReviewDetail = (props) => {
   const { img, name, review, rating } = props.review;
 
@@ -7,9 +8,10 @@ const ReviewDetail = (props) => {
     <div className="bg-white rounded p-4">
       <div className="grid grid-cols-5 bg-purple-50 rounded">
         <img src={img} alt="" className="col-span-1 rounded-full p-2" />
-        <p className="col-span-4 my-auto mx-2 text-xl text-cyan-700 font-bold">
+        <p className="col-span-2 my-auto mx-2 text-xl text-cyan-700 font-bold">
           {name}{" "}
         </p>
+        <div className="col-span-2"></div>
       </div>
 
       {rating < 5 ? ( //conditional rendering
