@@ -12,6 +12,9 @@ const Header = () => {
       <div className=" flex gap-8 text-gray-100 text-xl mx-5 md:flex">
         <CustomLink to={"/home"}>Home</CustomLink>
         <CustomLink to={"/about"}>About</CustomLink>
+        <CustomLink to={"/review"}>REVIEW</CustomLink>
+        <CustomLink to={"/dashBoard"}>DASHBOARD</CustomLink>
+        <CustomLink to={"/blog"}>BLOGS</CustomLink>
       </div>
     </div>
   );

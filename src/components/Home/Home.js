@@ -1,9 +1,10 @@
 import React from "react";
+import Review from "../Review/Review";
 
 const Home = () => {
   return (
     <div className="min-h-screen bg-slate-100">
-      <div className="grid md:grid-cols-2 pt-8 px-4">
+      <div className="grid md:grid-cols-2 pt-8 px-8">
         <div className="p-4 flex flex-col justify-center">
           <h3 className="text-4xl font-mono font-bold text-cyan-800">
             Get Along With
@@ -13,7 +14,8 @@ const Home = () => {
           </h3>
           <p className="text-gray-700 mb-4">
             A laptop person like you have to explore this product. This time it
-            comes with new and powerful features as you want.
+            comes with new and powerful features as you want. You can checkout
+            our Website for more products.
           </p>
           <div>
             <button className="my-4 text-xl px-3 py-2  rounded font-bold bg-purple-400 text-white hover:bg-purple-900">
@@ -30,6 +32,9 @@ const Home = () => {
             className="p-8 rounded"
           ></img>
         </div>
+      </div>
+      <div>
+        <Review></Review>
       </div>
     </div>
   );
