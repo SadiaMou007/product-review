@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "img": "http://placehold.it/32x32",
+    "name": "Claudine Howe",
+    "review": "A trim-to-the-max chassis, a pretty screen, and a up-to-date Intel Tiger Lake processor facilitate the most recent holler XPS thirteen affirm its standing as today's high high-end ultra portable.",
+    "rating": 5
+  },
+  {
+    "id": "2",
+    "img": "http://placehold.it/32x32",
+    "name": "Richmond Goodwin",
+    "review": "This is a knockout budget laptop, with excellent performance and a bevy of modern trappings that almost make you forget it rings up at less than $600.",
+    "rating": 4
+  },
+  {
+    "id": "3",
+    "img": "http://placehold.it/32x32",
+    "name": "Shawna Chambers",
+    "review": "It's pricey for a Chromebook, but Acer's Chromebook Spin 713 remains a world-class alternative to Windows convertibles.",
+    "rating": 5
+  },
+  {
+    "id": "4",
+    "img": "http://placehold.it/32x32",
+    "name": "Chaney Weeks",
+    "review": "The inspiration 16 Plus (7610) is a top-notch value in a burgeoning category of laptops with 16-inch displays, capable Intel H-series CPUs, and Nvidia GeForce RTX graphics.",
+    "rating": 3
+  },
+  {
+    "id": "5",
+    "img": "http://placehold.it/32x32",
+    "name": "Butler Malone",
+    "review": "There's one ultra portable we admire as much (the Dell XPS 13 OLED), but there's no business laptop we admire more than Lenovo's latest ThinkPad X1 Carbon.",
+    "rating": 4
+  },
+  {
+    "id": "6",
+    "img": "http://placehold.it/32x32",
+    "name": "Bernice Manning",
+    "review": "Microsoft's Surface Pro 8 doesn't revolutionize the iconic 2-in-1, but it delivers the most noteworthy update in years, with a larger display, an attractive chassis redesign, and improved performance.",
+    "rating": 5
+  }
+]
