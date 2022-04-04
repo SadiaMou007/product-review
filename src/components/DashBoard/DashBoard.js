@@ -11,9 +11,8 @@ const DashBoard = () => {
   }, []);
 
   return (
-    <div className="m-8 p-2 grid md:grid-cols-2 ">
+    <div className="m-8 p-2 gap-4 grid md:grid-cols-2 min-h-screen">
       <MyLineChart data={chartData}></MyLineChart>
-
       <MyBarChart data={chartData}></MyBarChart>
     </div>
   );

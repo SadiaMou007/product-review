@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router-dom";
 import Review from "./components/Review/Review";
 import DashBoard from "./components/DashBoard/DashBoard";
 import Blogs from "./components/Blogs/Blogs";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -21,6 +22,7 @@ function App() {
 
         <Route path="*" element={<PageNotFound></PageNotFound>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
